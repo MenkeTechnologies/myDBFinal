@@ -61,8 +61,8 @@
       <file leaf-file-name="HasherSalter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/RPI/HasherSalter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -781,7 +781,7 @@
       <workItem from="1485033864869" duration="1287000" />
       <workItem from="1485057263951" duration="161000" />
       <workItem from="1485076523118" duration="2290000" />
-      <workItem from="1485078998982" duration="429000" />
+      <workItem from="1485078998982" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="change name">
       <created>1483980026443</created>
@@ -801,7 +801,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14549000" />
+    <option name="totallyTimeSpent" value="14729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1225,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RPI/HasherSalter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
