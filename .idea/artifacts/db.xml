@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="db">
+    <output-path>$PROJECT_DIR$/out/artifacts/db</output-path>
+    <root id="archive" name="db.war">
+      <element id="artifact" artifact-name="JAVAEEHelloWorld:war exploded" />
+    </root>
+  </artifact>
+</component>
