@@ -31,7 +31,6 @@ public class LoginFilter implements Filter{
         if (session == null || session.getAttribute("user") == null) {
             response.sendRedirect("/db/Welcome.jsp");
         } else{
-            System.out.println("i filtered the chain");
             chain.doFilter(req, res);
         }
         
