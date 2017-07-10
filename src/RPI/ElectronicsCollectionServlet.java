@@ -51,10 +51,7 @@ public class ElectronicsCollectionServlet extends HttpServlet {
             String errorMessage = "";
             System.out.println("here before connection");
 
-
-
             try {
-
 
                 connection = MyConnection.getConnection("root", "root", "abcd");
 
@@ -76,8 +73,6 @@ public class ElectronicsCollectionServlet extends HttpServlet {
             }
             
             System.out.println("in the servlet error is " + errorMessage); 
-            
-            
 
             request.setAttribute("errorMessage", errorMessage);
            

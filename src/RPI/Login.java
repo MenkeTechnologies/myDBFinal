@@ -48,7 +48,7 @@ public class Login extends HttpServlet {
             Statement statement = connection.createStatement();
 
             String passwordQuery = "select * from dbUsers where username = '" + uname + "'";
-//            System.out.println("query was " + passwordQuery);
+            System.out.println("query was " + passwordQuery);
             ResultSet rs = statement.executeQuery(passwordQuery);
             String dbPassword = "";
             String salt = "";

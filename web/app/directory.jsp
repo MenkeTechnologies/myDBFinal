@@ -20,9 +20,10 @@
 
 <a href="/db/app/DB_ElectronicsServlet">Electronics Collection</a>
 <a href="/db/app/books/index.html">Books Collection</a>
+<a href="/db/app/cookbook">Cookbook</a>
 <a href="/db/app/DB_LearningServlet">Tips and Tricks</a>
 <a href="/db/app/upload.jsp">Upload</a>
-<a href="http://98.209.117.32:443/tipCalculator.html">Other Work</a>
+<a href="http://68.61.164.29:443/tipCalculator.html">Other Work</a>
 <a href="/db/Welcome.jsp">$_^D</a>
 
 </body>
