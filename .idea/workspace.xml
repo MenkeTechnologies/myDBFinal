@@ -7,19 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82a8e10-cded-484e-9809-5f0ed0222338" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/db/db.war" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/HasherSalter.class" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/HasherSalter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/LoginFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/LoginFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/HasherSalter.class" afterPath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/HasherSalter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/Login.class" afterPath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/LoginFilter.class" afterPath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/LoginFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RPI/DB_LearningCollection.java" afterPath="$PROJECT_DIR$/src/RPI/DB_LearningCollection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RPI/ElectronicsCollectionServlet.java" afterPath="$PROJECT_DIR$/src/RPI/ElectronicsCollectionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RPI/Login.java" afterPath="$PROJECT_DIR$/src/RPI/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jdbc/MyConnection.java" afterPath="$PROJECT_DIR$/src/jdbc/MyConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/directory.jsp" afterPath="$PROJECT_DIR$/web/app/directory.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/upload.jsp" afterPath="$PROJECT_DIR$/web/app/upload.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,31 +24,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HasherSalter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RPI/HasherSalter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloTag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RPI/HelloTag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directory.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="directory.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/app/directory.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="435">
+              <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElectronicsCollection.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/app/ElectronicsCollection.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="75" column="143" lean-forward="false" selection-start-line="75" selection-start-column="139" selection-end-line="75" selection-end-column="143" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/app/upload.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -68,9 +57,32 @@
       <file leaf-file-name="DB_Electronics.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RPI/DB_Electronics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="525">
               <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2178#2179#0" expanded="false" />
+                <element signature="e#2205#2206#0" expanded="false" />
+                <element signature="e#2241#2242#0" expanded="false" />
+                <element signature="e#2269#2270#0" expanded="false" />
+                <element signature="e#2308#2309#0" expanded="false" />
+                <element signature="e#2342#2343#0" expanded="false" />
+                <element signature="e#2382#2383#0" expanded="false" />
+                <element signature="e#2414#2415#0" expanded="false" />
+                <element signature="e#2451#2452#0" expanded="false" />
+                <element signature="e#2484#2485#0" expanded="false" />
+                <element signature="e#2536#2537#0" expanded="false" />
+                <element signature="e#2580#2581#0" expanded="false" />
+                <element signature="e#2618#2619#0" expanded="false" />
+                <element signature="e#2652#2653#0" expanded="false" />
+                <element signature="e#2706#2707#0" expanded="false" />
+                <element signature="e#2752#2753#0" expanded="false" />
+                <element signature="e#2788#2789#0" expanded="false" />
+                <element signature="e#2820#2821#0" expanded="false" />
+                <element signature="e#2870#2871#0" expanded="false" />
+                <element signature="e#2912#2913#0" expanded="false" />
+                <element signature="e#5844#5845#0" expanded="false" />
+                <element signature="e#5882#5883#0" expanded="false" />
                 <marker date="1483762302000" expanded="true" signature="3471:3613" ph="select * fro... ElectronicsCollection" />
                 <marker date="1483762302000" expanded="true" signature="3914:4077" ph="insert into ElectronicsCollection... " />
                 <marker date="1483762302000" expanded="true" signature="4962:4997" ph="select * fro... ElectronicsCollection" />
@@ -82,9 +94,11 @@
       <file leaf-file-name="DB_ElectronicsCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RPI/DB_ElectronicsCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1021">
+            <state relative-caret-position="195">
               <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,9 +106,12 @@
       <file leaf-file-name="DB_LearningCollection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RPI/DB_LearningCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="1170">
               <caret line="87" column="7" lean-forward="false" selection-start-line="87" selection-start-column="7" selection-end-line="92" selection-end-column="17" />
-              <folding />
+              <folding>
+                <element signature="e#0#3459#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,9 +119,14 @@
       <file leaf-file-name="ElectronicsCollectionServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RPI/ElectronicsCollectionServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
+            <state relative-caret-position="945">
               <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#2937#3056#0" expanded="false" />
+                <element signature="e#4167#4168#0" expanded="false" />
+                <element signature="e#4209#4210#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +137,10 @@
             <state relative-caret-position="660">
               <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding>
-                <element signature="e#2718#2837#0" expanded="true" />
+                <element signature="e#0#4024#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3961#3962#0" expanded="false" />
+                <element signature="e#4003#4004#0" expanded="false" />
                 <marker date="1499652255000" expanded="true" signature="1665:1719" ph="select * fro... dbUsers" />
               </folding>
             </state>
@@ -135,7 +160,7 @@
       <file leaf-file-name="Welcome.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/Welcome.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-485">
+            <state relative-caret-position="255">
               <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding />
             </state>
@@ -159,6 +184,8 @@
       <find>border-ra</find>
       <find>service</find>
       <find>bootstrap</find>
+      <find>back</find>
+      <find>backe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,6 +218,7 @@
         <option value="$PROJECT_DIR$/src/RPI/Login.java" />
         <option value="$PROJECT_DIR$/src/jdbc/MyConnection.java" />
         <option value="$PROJECT_DIR$/web/app/directory.jsp" />
+        <option value="$PROJECT_DIR$/web/app/upload.jsp" />
       </list>
     </option>
   </component>
@@ -231,9 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -394,6 +419,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1082,6 +1110,7 @@
       <workItem from="1496181087146" duration="92000" />
       <workItem from="1496199382551" duration="474000" />
       <workItem from="1499651068558" duration="2910000" />
+      <workItem from="1499705709143" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="change name">
       <created>1483980026443</created>
@@ -1115,7 +1144,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25733000" />
+    <option name="totallyTimeSpent" value="25852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1144,22 +1173,22 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31374407" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4180095" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31374407" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985783" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.6995261" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.30047393" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25376505" sideWeight="0.6947867" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25376505" sideWeight="0.30521327" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1228,7 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1265,10 @@
         <state relative-caret-position="315">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#2718#2837#0" expanded="true" />
+            <element signature="e#0#4024#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3961#3962#0" expanded="false" />
+            <element signature="e#4003#4004#0" expanded="false" />
             <marker date="1499652255000" expanded="true" signature="1665:1719" ph="select * fro... dbUsers" />
           </folding>
         </state>
@@ -1255,7 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1296,7 +1325,10 @@
         <state relative-caret-position="315">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#2718#2837#0" expanded="true" />
+            <element signature="e#0#4024#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3961#3962#0" expanded="false" />
+            <element signature="e#4003#4004#0" expanded="false" />
             <marker date="1499652255000" expanded="true" signature="1665:1719" ph="select * fro... dbUsers" />
           </folding>
         </state>
@@ -1306,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1322,23 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/ElectronicsCollection.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1346,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,70 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPI/ElectronicsCollectionServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPI/HelloTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/MyConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPI/DB_Electronics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <marker date="1483762302000" expanded="true" signature="3471:3613" ph="select * fro... ElectronicsCollection" />
-            <marker date="1483762302000" expanded="true" signature="3914:4077" ph="insert into ElectronicsCollection... " />
-            <marker date="1483762302000" expanded="true" signature="4962:4997" ph="select * fro... ElectronicsCollection" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPI/DB_LearningCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="87" column="7" lean-forward="false" selection-start-line="87" selection-start-column="7" selection-end-line="92" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPI/DB_ElectronicsCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1021">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RPI/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-          <folding>
-            <element signature="e#2718#2837#0" expanded="true" />
-            <marker date="1499652255000" expanded="true" signature="1665:1719" ph="select * fro... dbUsers" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1429,10 +1378,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPI/HelloTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#756#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPI/DB_Electronics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2178#2179#0" expanded="false" />
+            <element signature="e#2205#2206#0" expanded="false" />
+            <element signature="e#2241#2242#0" expanded="false" />
+            <element signature="e#2269#2270#0" expanded="false" />
+            <element signature="e#2308#2309#0" expanded="false" />
+            <element signature="e#2342#2343#0" expanded="false" />
+            <element signature="e#2382#2383#0" expanded="false" />
+            <element signature="e#2414#2415#0" expanded="false" />
+            <element signature="e#2451#2452#0" expanded="false" />
+            <element signature="e#2484#2485#0" expanded="false" />
+            <element signature="e#2536#2537#0" expanded="false" />
+            <element signature="e#2580#2581#0" expanded="false" />
+            <element signature="e#2618#2619#0" expanded="false" />
+            <element signature="e#2652#2653#0" expanded="false" />
+            <element signature="e#2706#2707#0" expanded="false" />
+            <element signature="e#2752#2753#0" expanded="false" />
+            <element signature="e#2788#2789#0" expanded="false" />
+            <element signature="e#2820#2821#0" expanded="false" />
+            <element signature="e#2870#2871#0" expanded="false" />
+            <element signature="e#2912#2913#0" expanded="false" />
+            <element signature="e#5844#5845#0" expanded="false" />
+            <element signature="e#5882#5883#0" expanded="false" />
+            <marker date="1483762302000" expanded="true" signature="3471:3613" ph="select * fro... ElectronicsCollection" />
+            <marker date="1483762302000" expanded="true" signature="3914:4077" ph="insert into ElectronicsCollection... " />
+            <marker date="1483762302000" expanded="true" signature="4962:4997" ph="select * fro... ElectronicsCollection" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPI/DB_ElectronicsCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPI/DB_LearningCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="87" column="7" lean-forward="false" selection-start-line="87" selection-start-column="7" selection-end-line="92" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#3459#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPI/ElectronicsCollectionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2937#3056#0" expanded="false" />
+            <element signature="e#4167#4168#0" expanded="false" />
+            <element signature="e#4209#4210#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPI/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#4024#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3961#3962#0" expanded="false" />
+            <element signature="e#4003#4004#0" expanded="false" />
+            <marker date="1499652255000" expanded="true" signature="1665:1719" ph="select * fro... dbUsers" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/MyConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/Welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/app/directory.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="435">
+          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/ElectronicsCollection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="75" column="143" lean-forward="false" selection-start-line="75" selection-start-column="139" selection-end-line="75" selection-end-column="143" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
           <folding />
         </state>
       </provider>
