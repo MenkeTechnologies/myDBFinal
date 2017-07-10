@@ -32,9 +32,7 @@ public class DB_LearningCollection {
 
             }
             
-            
             String category = request.getParameter("category");
-            
           
             String unescapedLearning = request.getParameter("learning");
             
