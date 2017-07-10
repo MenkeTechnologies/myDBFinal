@@ -21,8 +21,6 @@
         <div class="container-fluid">
             <h1 id="head">Upload</h1>
 
-         
-
             <form name="addForm" action="/db/DB_Upload" id="addForm" method="post" enctype="multipart/form-data">
 
                 <ul class="list-group" id="topInputs">
@@ -30,7 +28,6 @@
                     
                     <li class="list-group-item">
                         <span class="badge">Your file ready to go!</span>
-                        
                         <input type="file" name="file" style="padding-top: 20px;
                       height: 60px"/>
                     </li>
@@ -39,10 +36,7 @@
 
             </form>
 
-
-
             <div class="jumbotron">
-
                 <p>
                 <div class="btn-group btn-group-lg" id="addDiv" role="group">
 
@@ -52,16 +46,10 @@
                 </div>
 
             </div>
-            
-            
         </p>
-
-
         <hr/>
         
         <h3>${result}</h3>
-        
-        
 
     </form>
 
@@ -99,11 +87,8 @@ var uploadButton = document.getElementById("upButton");
 uploadButton.addEventListener("click", upload);
 
 function upload(e){
- 
     
         addForm.submit();
-    
-    
 }
 
 
