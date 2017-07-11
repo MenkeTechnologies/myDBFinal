@@ -91,10 +91,6 @@ function upload(e){
         addForm.submit();
 }
 
-
-
-
 </script>
-
 </body>
 </html>
