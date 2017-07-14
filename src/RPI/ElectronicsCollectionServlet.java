@@ -6,6 +6,8 @@ package RPI;
  * and open the template in the editor.
  */
 import java.io.FileOutputStream;
+
+import jdbc.IP;
 import jdbc.MyConnection;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -41,11 +43,6 @@ public class ElectronicsCollectionServlet extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
 
-//            System.out.println("the conn pool attribute is " + getServletContext().getAttribute("connectionPool"));
-//
-//            ConnectionPool connectionPool = (ConnectionPool) getServletContext().getAttribute("connectionPool");
-//
-//            System.out.println("the connection Pool is " + connectionPool);
             Connection connection;
             Statement statement;
             String errorMessage = "";
@@ -53,7 +50,7 @@ public class ElectronicsCollectionServlet extends HttpServlet {
 
             try {
 
-                connection = MyConnection.getConnection("root", "root", "abcd");
+                connection = MyConnection.getConnection("root", "root", new IP().getIP());
 
                 System.out.println(connection);
                 statement = connection.createStatement();

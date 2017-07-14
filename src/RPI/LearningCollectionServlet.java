@@ -14,6 +14,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import jdbc.IP;
 import jdbc.MyConnection;
 
 /**
@@ -33,7 +35,7 @@ public class LearningCollectionServlet extends HttpServlet {
 
             try {
 
-                connection = MyConnection.getConnection("root", "root", "abcd");
+                connection = MyConnection.getConnection("root", "root", new IP().getPasswd());
 
                 statement = connection.createStatement();
 
