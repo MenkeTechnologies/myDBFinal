@@ -5,13 +5,16 @@
  */
 package RPI;
 
+import jdbc.IP;
 import jdbc.MyConnection;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.util.Scanner;
 import javax.mail.Message;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -41,10 +44,23 @@ public class Login extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
 
+        try {
+            Scanner scanner =new Scanner(new FileInputStream(getServletContext().getRealPath("WEB-INF") + "/ip.txt"));
+            String ip = scanner.next();
+            String passwd = scanner.next();
+            System.err.println("__________Class:" + Thread.currentThread().getStackTrace()[1].getClassName()+ "____Line:" + Thread.currentThread().getStackTrace()[1].getLineNumber() +
+            "___________ " + ip);
+            new IP().setIP(ip);
+            new IP().setPasswd(passwd);
+        } catch (Exception e){
+           System.err.println("__________Class:" + Thread.currentThread().getStackTrace()[1].getClassName()+ "____Line:" + Thread.currentThread().getStackTrace()[1].getLineNumber() +
+           "___________ " + e);
+        }
+
         String uname = request.getParameter("uname");
         String pw = request.getParameter("pw");
 
-        try (Connection connection = MyConnection.getConnection("root", "root", "abcd")) {
+        try (Connection connection = MyConnection.getConnection("root", "root", new IP().getPasswd())) {
             Statement statement = connection.createStatement();
 
             String passwordQuery = "select * from dbUsers where username = '" + uname + "'";

@@ -19,10 +19,9 @@ public class MyConnection {
 
     public static Connection getConnection(String... args) {
 
-
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            url = "jdbc:mysql://68.61.164.29:7779/" + args[0] + "?user=" + args[1] + "&password=" + args[2];
+            url = "jdbc:mysql://" + new IP().getIP() +":7779/" + args[0] + "?user=" + args[1] + "&password=" + args[2];
             
             System.out.println(url);
             myConnection = DriverManager.getConnection(url);
