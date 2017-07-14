@@ -7,32 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b82a8e10-cded-484e-9809-5f0ed0222338" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RPI/test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc/IP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/ip.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/shalom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/shalom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/shalom.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/ElectronicsCollectionServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/ElectronicsCollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/LearningCollectionServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/LearningCollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/RPI/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/jdbc/MyConnection.class" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/classes/jdbc/MyConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/db/db.war" afterPath="$PROJECT_DIR$/out/artifacts/db/db.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/ElectronicsCollectionServlet.class" afterPath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/ElectronicsCollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/LearningCollectionServlet.class" afterPath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/LearningCollectionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/Login.class" afterPath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/RPI/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/jdbc/MyConnection.class" afterPath="$PROJECT_DIR$/out/production/DB_IDEA_FINAL/jdbc/MyConnection.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/app/directory.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/app/directory.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/app/upload.jsp" afterPath="$PROJECT_DIR$/out/artifacts/JAVAEEHelloWorld_war_exploded/app/upload.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RPI/ElectronicsCollectionServlet.java" afterPath="$PROJECT_DIR$/src/RPI/ElectronicsCollectionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RPI/LearningCollectionServlet.java" afterPath="$PROJECT_DIR$/src/RPI/LearningCollectionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RPI/Login.java" afterPath="$PROJECT_DIR$/src/RPI/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jdbc/MyConnection.java" afterPath="$PROJECT_DIR$/src/jdbc/MyConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/directory.jsp" afterPath="$PROJECT_DIR$/web/app/directory.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/upload.jsp" afterPath="$PROJECT_DIR$/web/app/upload.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +26,8 @@
       <file leaf-file-name="directory.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/app/directory.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="435">
+              <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -1180,7 +1155,7 @@
       <workItem from="1499734961888" duration="129000" />
       <workItem from="1499841484691" duration="1437000" />
       <workItem from="1499959620084" duration="54000" />
-      <workItem from="1500037151705" duration="3401000" />
+      <workItem from="1500037151705" duration="3476000" />
     </task>
     <task id="LOCAL-00001" summary="change name">
       <created>1483980026443</created>
@@ -1214,7 +1189,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31221000" />
+    <option name="totallyTimeSpent" value="31296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1227,7 +1202,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="44" width="1430" height="1151" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1248,9 +1222,9 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3126815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3126815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41723135" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29912874" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29912874" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26080692" sideWeight="0.7450704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26080692" sideWeight="0.25492957" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1729,8 +1703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app/directory.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="435">
+          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding />
         </state>
       </provider>
