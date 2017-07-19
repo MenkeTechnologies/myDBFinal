@@ -1,7 +1,7 @@
 # Personal Database-Driven Website for the Raspberry Pi3
 
 
-This website is using Java servlets, JSPs, JQuery, Boostrap, MySQL and more
+This website is using Java servlets, JSPs, JQuery, Bootstrap, MySQL and more
 
 Runs on Apache Tomcat
 
