@@ -85,8 +85,8 @@ public class DB_LearningCollection {
         
         if(action != null && action.equals("updateAll")){
             
-            //use jquery to submit the form and action=updateAll and pass in all the values of inputs that have changed, use jquery blur or keyboard detection functions
-            //servlet takes the array of indexes of call learningitem.update for each one
+            //TODO use jquery to submit the form and action=updateAll and pass in all the values of inputs that have changed, use jquery blur or keyboard detection functions
+            //TODO servlet takes the array of indexes of call learningitem.update for each one
 //            learningCollection.forEach(item->{
 //                errorMessage += item.update(item.index, statement);
 //                

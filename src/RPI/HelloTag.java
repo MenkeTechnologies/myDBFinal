@@ -26,7 +26,5 @@ public class HelloTag extends SimpleTagSupport{
     public void doTag() throws JspException, IOException {
         printer();
     }
-    
-    
-    
+
 }
