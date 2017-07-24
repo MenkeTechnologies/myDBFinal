@@ -5,21 +5,20 @@ package RPI;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-import java.io.FileOutputStream;
 
 import jdbc.IP;
 import jdbc.MyConnection;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.Statement;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import jdbc.ConnectionPool;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.Statement;
 
 /**
  *
@@ -46,8 +45,6 @@ public class ElectronicsCollectionServlet extends HttpServlet {
             Connection connection;
             Statement statement;
             String errorMessage = "";
-            System.out.println("here before connection");
-
             try {
 
                 connection = MyConnection.getConnection("root", "root", new IP().getIP());
@@ -68,7 +65,9 @@ public class ElectronicsCollectionServlet extends HttpServlet {
                 System.out.println(e.getCause());
 
             }
-            
+            System.out.println("here before connection");
+
+
             System.out.println("in the servlet error is " + errorMessage); 
 
             request.setAttribute("errorMessage", errorMessage);
