@@ -47,7 +47,7 @@ public class ElectronicsCollectionServlet extends HttpServlet {
             String errorMessage = "";
             try {
 
-                connection = MyConnection.getConnection("root", "root", new IP().getIP());
+                connection = MyConnection.getConnection("root", "root", new IP().getPasswd());
 
                 System.out.println(connection);
                 statement = connection.createStatement();
