@@ -63,7 +63,7 @@ public class Login extends HttpServlet {
         try (Connection connection = MyConnection.getConnection("root", "root", new IP().getPasswd())) {
             Statement statement = connection.createStatement();
 
-            String passwordQuery = "select * from dbUsers where username = '{}'".format(uname);
+            String passwordQuery = String.format("select * from dbUsers where username = '%s'", uname);
             System.out.println("query was " + passwordQuery);
             ResultSet rs = statement.executeQuery(passwordQuery);
             String dbPassword = "";
