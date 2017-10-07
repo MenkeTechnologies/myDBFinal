@@ -8,12 +8,15 @@
              jdbc.GlobalConnectionPool
         </listener-class>
     </listener>-->
-    
+
+
+
+
     <servlet>
         <servlet-name>DB_ElectronicsServlet</servlet-name>
         <servlet-class>RPI.ElectronicsCollectionServlet</servlet-class>
     </servlet>
-    
+
     <servlet-mapping>
         <servlet-name>DB_ElectronicsServlet</servlet-name>
         <url-pattern>/app/DB_ElectronicsServlet</url-pattern>
