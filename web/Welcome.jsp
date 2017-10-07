@@ -1,7 +1,7 @@
 <%-- 
-    Document   : index
-    Created on : Dec 11, 2016, 6:57:48 PM
-    Author     : jacobmenke
+Document   : index
+Created on : Dec 11, 2016, 6:57:48 PM
+Author     : jacobmenke
 --%>
 
 <%@page import="java.time.LocalDate" %>
@@ -28,7 +28,7 @@
 
 </head>
 <body>
-<div id="theCarousel" class="carousel slide span12" data-ride="carousel">
+<div id="theCarousel" class="carousel slide span12" data-ride="carousel" data-interval="60000">
 
     <!--        <div id="theCarousel">-->
 
@@ -52,7 +52,7 @@
 
                         <label>Passwd</label>
                         <input type="password" name="pw"/>
-                        <input type="submit" value="Enter">
+                        <input id="submit" type="submit" value="Enter">
                     </div>
 
                 </form>
@@ -99,20 +99,28 @@
 
 
     <% if (request.getAttribute("error") != null) {
-            String error = (String) request.getAttribute("error");
+        String error = (String) request.getAttribute("error");
 
-            if (error.equals("bad_login!")) {
-                String forJS = "alert('That was a BAD login')";
-    %>
+        if (error.equals("bad_login!")) {
+            String forJS = "alert('That was a BAD login')";
+            %>
 
 
     <%
-            }
-        }%>
+}
+}%>
 
     var anim = "easeInOutElastic";
 
     var elem = "body";
+
+    $(elem).keypress(function(e){
+
+        if (e.which == 13){
+            $("#submit").click();
+            return false;
+        }
+    })
 
     $(elem).click(function () {
 
@@ -130,6 +138,7 @@
         }, 2000, anim, function () {
 
         });
+
 
     });
 
