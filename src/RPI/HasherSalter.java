@@ -17,8 +17,8 @@ public class HasherSalter {
         md.update(toHash.getBytes());
 
         byte[] bytes = md.digest();
-
         StringBuilder sb = new StringBuilder(bytes.length * 2);
+
         for (byte aByte : bytes) {
             int v = aByte & 0xFF;
             if (v < 16) sb.append('0');

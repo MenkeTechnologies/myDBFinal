@@ -61,11 +61,15 @@ public class Login extends HttpServlet {
         String pw = request.getParameter("pw");
 
         try (Connection connection = MyConnection.getConnection("root", "root", new IP().getPasswd())) {
+
             Statement statement = connection.createStatement();
 
             String passwordQuery = String.format("select * from dbUsers where username = '%s'", uname);
+
             System.out.println("query was " + passwordQuery);
+
             ResultSet rs = statement.executeQuery(passwordQuery);
+
             String dbPassword = "";
             String salt = "";
 
@@ -75,9 +79,11 @@ public class Login extends HttpServlet {
             }
 
             if ((new HasherSalter().hashFunction(pw + salt)).equals(dbPassword)) {
+
                 request.getSession().setAttribute("user", uname);
                 RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/app/directory.jsp");
                 dispatcher.forward(request, response);
+
             } else {
                 RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Welcome.jsp");
                 request.setAttribute("error", "bad_login!");

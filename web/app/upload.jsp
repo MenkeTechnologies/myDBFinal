@@ -15,12 +15,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
     <link href="/db/css/DatabaseCollection.css" rel="stylesheet" type="text/css"/>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body >
 <div class="container-fluid">
     <h1 id="head">Upload</h1>
 
-    <form name="addForm" action="/db/DB_Upload" id="addForm" method="post" enctype="multipart/form-data">
+    <form action="/db/DB_Upload" id="addForm" method="post" enctype="multipart/form-data">
 
         <ul class="list-group" id="topInputs">
             <li class="list-group-item disabled" style="font-size: 40px">Your File</li>
@@ -62,7 +65,6 @@
     //    var addOrClearInput = document.getElementById("addOrClear");
     //    var addButton = document.getElementById("addButton");
     //    var clearButton = document.getElementById("clearButton");
-    var addForm = document.getElementsByName("addForm")[0];
     //    addButton.addEventListener("click", addDevice);
     //    clearButton.addEventListener("click", clearList);
     //    function addDevice(e) {
@@ -74,14 +76,11 @@
     //        addForm.submit();
     //    }
 
-    var uploadButton = document.getElementById("upButton");
 
-    uploadButton.addEventListener("click", upload);
+    $("#upButton").on("click", function (e) {
+        $("#addForm").submit();
+    });
 
-    function upload(e){
-
-        addForm.submit();
-    }
 
 </script>
 </body>

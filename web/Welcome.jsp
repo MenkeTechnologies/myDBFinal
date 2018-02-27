@@ -116,11 +116,11 @@ Author     : jacobmenke
 
     $(elem).keypress(function(e){
 
-        if (e.which == 13){
+        if (e.which === 13){
             $("#submit").click();
             return false;
         }
-    })
+    });
 
     $(elem).click(function () {
 
@@ -134,7 +134,7 @@ Author     : jacobmenke
         });
 
         $(elem).animate({
-            left: 0,
+            left: 0
         }, 2000, anim, function () {
 
         });
