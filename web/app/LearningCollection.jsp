@@ -101,11 +101,11 @@
             <li class="list-group-item disabled" style="font-size: 40px">Something You Learned</li>
             <li class="list-group-item">
                 <span class="badge"></span>
-                <input type="text" placeholder="Category" name="category" value="Programming"/> Category
+                <input type="text" placeholder="Category" name="category" id="categoryTextField" value="Programming"/> Category
             </li>
             <li class="list-group-item">
                 <span class="badge"></span>
-                <textarea placeholder="What you learned..." name="learning"></textarea>
+                <textarea placeholder="What you learned..." name="learning" id="learningTextField"></textarea>
 
             </li>
 
@@ -183,12 +183,20 @@
 </div>
 
 <script>
+    $(document).ready(function (e) {
+        $("#categoryTextField").focus();
+    });
 
     var anim = "easeInOutElastic";
-
     var title = "#head";
-
     var elem = "body";
+
+    $("#learningTextField").keypress(function (e) {
+        if (e.which === 13){
+            $("#addButton").click();
+        }
+
+    });
 
     $(title).click(function () {
 
@@ -206,7 +214,6 @@
         }, 2000, anim, function () {
 
         });
-
     });
 
 
