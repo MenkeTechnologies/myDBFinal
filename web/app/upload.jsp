@@ -17,7 +17,7 @@
     <link href="/db/css/DatabaseCollection.css" rel="stylesheet" type="text/css"/>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/db/nodes_modules/jquery/dist/jquery.js"></script>
 </head>
 <body >
 <div class="container-fluid">
