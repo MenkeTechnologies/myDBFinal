@@ -37,14 +37,14 @@ public class Upload extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
 
-        String Path = "/home/pi/Uploads";
+        String uploadedDirectory = "/home/pi/Uploads";
         final Part filePart = request.getPart("file");
         final String fileName = getFileName(filePart);
 
         System.out.println("the FileName was " + fileName);
         String resultString = "";
 
-        try (BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(new File(Path + "/" + fileName)),1_000_000);
+        try (BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream(new File(uploadedDirectory + "/" + fileName)),1_000_000);
                 BufferedInputStream in = new BufferedInputStream(filePart.getInputStream(), 1_000_000)) {
 
             int read = 0;
@@ -54,7 +54,7 @@ public class Upload extends HttpServlet {
                 out.write(bytes, 0, read);
             }
 
-            resultString = "New File Created at " + Path + "/" + fileName;
+            resultString = "New File Created at " + uploadedDirectory + "/" + fileName;
 
         } catch (Exception e) {
 

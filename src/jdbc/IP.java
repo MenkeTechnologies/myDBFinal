@@ -1,27 +1,35 @@
 package jdbc;
 
-import java.io.FileInputStream;
-import java.util.Scanner;
 
 /**
  * Created by jacobmenke on 7/14/17.
  */
 public class IP {
-    public static String IP = "";
+    public static  String IPADDR = "";
     public static String passwd = "";
+    public static String port = "3306";
 
-    public String getIP() {
-        return IP;
+    public static String getIP() {
+        return IPADDR;
+    }
+
+    public static void setIP(String ip) {
+        IP.IPADDR = ip;
     }
 
     public String getPasswd() {
         return passwd;
     }
 
-    public void setIP(String IP) {
-        jdbc.IP.IP = IP;
+    public static void setPasswd(String passwd) {
+        IP.passwd = passwd;
     }
-    public void setPasswd(String passwd) {
-       jdbc.IP.passwd = passwd;
+
+    public String getPort() {
+        return port;
+    }
+
+    public void setPort(String port) {
+        IP.port = port;
     }
 }
