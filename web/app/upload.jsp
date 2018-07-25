@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Electronics Collection</title>
 
-    <link href="/db/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="/db/nodes_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
     <link href="/db/css/DatabaseCollection.css" rel="stylesheet" type="text/css"/>
@@ -77,7 +77,7 @@
     //    }
 
 
-    $("#upButton").on("click", function (e) {
+    $("#upButton").on("click", function () {
         $("#addForm").submit();
     });
 
