@@ -32,14 +32,3 @@ class HasherSalter {
         return Base64.getEncoder().encodeToString(saltBytes)
     }
 }
-
-fun main() {
-    val mystring = "231235dogs"
-
-    val md = MessageDigest.getInstance("SHA-256")
-    md.reset()
-    md.update(mystring.toByteArray())
-    val secondbytes = md.digest()
-
-    println(secondbytes.size)
-}

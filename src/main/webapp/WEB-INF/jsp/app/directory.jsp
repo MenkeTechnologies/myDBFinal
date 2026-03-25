@@ -27,7 +27,7 @@
 <a href="/db/app/cookbook">Cookbook</a>
 <a href="/db/app/DB_LearningServlet" id="tips">Tips and Tricks</a>
 <a href="/db/app/upload.jsp">Upload</a>
-<a href="http://<%=new IP().getIP()+":2"%>/tipCalculator.html">Other Work</a>
+<a href="http://<%=new IP().getIp()+":2"%>/tipCalculator.html">Other Work</a>
 <a href="/db/Welcome.jsp">$_^D</a>
 
 

@@ -1,53 +1,49 @@
 # Personal Database-Driven Website for the Raspberry Pi3
 
-A full-stack web application built with Kotlin servlets, JSPs, jQuery, Bootstrap, and MySQL. Runs on Apache Tomcat 10+.
+A full-stack web application built with Kotlin, Spring Boot, JSPs, jQuery, Bootstrap, and MySQL.
 
 ![Welcome page screenshot](/welcome.png?raw=true)
 ![Tips and Tricks page](/tips.png?raw=true)
 
 ## Tech Stack
 
-- **Language**: Kotlin (JVM target 23, runs on JDK 25)
-- **Web**: Jakarta Servlet 6.1, JSP
+- **Language**: Kotlin (JVM target 23)
+- **Framework**: Spring Boot 3.4
+- **Views**: JSP, JSTL
 - **Frontend**: jQuery, Bootstrap
 - **Database**: MySQL (Connector/J 9.2)
 - **Build**: Maven
-- **Server**: Apache Tomcat 10+ / 11 (Jakarta EE)
 
 ## Prerequisites
 
-- JDK 25
+- JDK 23+
 - Maven
-- Apache Tomcat 10.1+ or 11 (Jakarta EE compatible)
 - MySQL
-
-## Build
-
-```sh
-mvn package
-```
-
-The WAR file will be created at `target/myDBFinal-1.0-SNAPSHOT.war`.
-
-## Deploy
-
-Copy the WAR to your Tomcat `webapps` directory:
-
-```sh
-cp target/myDBFinal-1.0-SNAPSHOT.war $CATALINA_HOME/webapps/db.war
-catalina start
-```
-
-The app will be available at `http://localhost:8080/db/`.
 
 ## Configuration
 
-Create `web/WEB-INF/ip.txt` with your MySQL host and password:
+Edit `src/main/resources/application.properties` with your MySQL connection details:
 
+```properties
+db.host=localhost
+db.password=yourpassword
+db.port=3306
 ```
-<mysql-host>
-<mysql-password>
+
+## Build & Run
+
+```sh
+mvn spring-boot:run
 ```
+
+Or build and run the WAR directly:
+
+```sh
+mvn package
+java -jar target/myDBFinal-1.0-SNAPSHOT.war
+```
+
+The app will be available at `http://localhost:8080/db/`.
 
 ## Features
 
@@ -55,4 +51,4 @@ Create `web/WEB-INF/ip.txt` with your MySQL host and password:
 - Electronics collection manager (CRUD with remote device control)
 - Learning collection tracker (CRUD with categories)
 - File upload to the Raspberry Pi
-- Session-based login filter protecting `/app/*` routes
+- Session-based login interceptor protecting `/app/*` routes
